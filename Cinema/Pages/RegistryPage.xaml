@@ -1,0 +1,21 @@
+﻿<Page x:Class="Cinema.Pages.RegistryPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Cinema.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="400" d:DesignWidth="400"
+      Title="RegistryPage">
+
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" >
+            <TextBlock>Логин:</TextBlock>
+            <TextBox Name="Login" Width="200"></TextBox>
+            <TextBlock>Пароль:</TextBlock>
+            <PasswordBox Name="Password" Width="200"></PasswordBox>
+            <Button Content="Регистрация" Margin="0 10" Click="Button_Click"></Button>
+            <Button Margin="50 10 0 0" Content="Если у вас уже есть аккаунт" Click="LoginButton_Click"></Button>
+        </StackPanel>
+    </Grid>
+</Page>

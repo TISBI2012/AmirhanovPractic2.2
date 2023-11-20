@@ -1,0 +1,16 @@
+﻿<Page x:Class="Cinema.Pages.LoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="clr-namespace:Cinema.Pages"
+      Title="LoginPage">
+
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock>Логин:</TextBlock>
+            <TextBox Name="LoginTextBox" Width="200"/>
+            <TextBlock>Пароль:</TextBlock>
+            <PasswordBox Name="PasswordBox" Width="200"/>
+            <Button Content="Вход" Margin="0 10" Click="LoginButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>
